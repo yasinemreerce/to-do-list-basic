@@ -1,0 +1,144 @@
+body {
+    display: grid;
+    justify-content: center;
+    background-color: rgb(32,97,203);
+    overflow-x: hidden;
+}
+
+.baslik {
+    display: grid;
+    justify-content: center;
+    height: 100px;
+    width: 1690px;
+    margin: 40 0 30 0;
+    background-color: white;
+}
+
+.baslik h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    color: rgb(32,97,203);
+    line-height: 40px;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    width: 400px;
+    height: 510px;
+    margin: 0 0 200 640px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.container .input_area {
+    border: 1px solid rgb(32,97,203);
+    width: 263px;
+    height: 40px;
+    display: block;
+    border-radius: 5px;
+    margin: 30 0 0 30;
+}
+
+.container .input_area input {
+    width: 263px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid rgb(32,97,203);
+    border-radius: 5px;
+    padding: 0 0 0 7;
+}
+
+.container .submit_btn {
+    display: block;
+    width: 70px;
+    height: 40px;
+    margin: 0 0 90 10;
+    position: relative;
+    border-radius: 5px;
+    bottom: 40px;
+    left: 310px;
+}
+
+.container .submit_btn button {
+    font-size: 18px;
+    height: 40px;
+    width: 70px;
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.container .submit_btn button:hover {
+    background-color: black;
+    transition: 0.2s all ease-in-out;
+}
+
+.container .list_icerik {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    bottom: 100px;
+    left: 0px;
+    margin: 0 4 0 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.container .list_icerik ul {
+    list-style: none;
+    margin: 0 0 0 0;
+    width: 360px;
+    height: 400px;
+    border-radius: 8px;
+}
+
+.container .list_icerik ul li {
+    border: 1px solid rgb(99, 99, 255);
+    background-color: rgb(196,226,228);
+    border-radius: 5px;
+    height: 50px;
+    width: 350px;
+    margin: 10 0 0 0;
+    position: relative;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    padding: 10 0 0 15;
+    right: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn3 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 50px;
+    height: 40px;
+    background-color: rgb(233, 123, 123);
+    color: white;
+    position: absolute;
+    left: 310px;
+    bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn3:hover {
+    background-color: red;
+    transition: 0.2s ease-in-out all;
+}
+
+.btn3 img {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    right: 1px;
+    bottom: 2px;
+}
+
